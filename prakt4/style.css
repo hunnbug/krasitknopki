@@ -1,0 +1,28 @@
+.the{
+    color: white;
+    font: Times New Roman;
+    display: flex;
+    margin-left: 280px;
+    font-size:40px;
+}
+
+.dakota{
+    font: Times New Roman;
+    display:flex;
+    margin-left: 280px;
+    font-size:40px;
+}
+
+.toppanel{
+    color: white;
+    font: Times New Roman;
+    display:inline-block;
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+body{
+    background: linear-gradient( #bbbbbb4d, transparent 1px), linear-gradient( 90deg, #bbbbbb4d, transparent 1px);
+    background-size: 40px 40px;
+    background-position: center center;
+}
