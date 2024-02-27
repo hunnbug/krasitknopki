@@ -1,28 +1,111 @@
-.the{
-    color: white;
-    font: Times New Roman;
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #e4c3a4;
+}
+
+header {
     display: flex;
-    margin-left: 280px;
-    font-size:40px;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #e4c3a4;
+    padding: 25px 50px;
 }
 
-.dakota{
-    font: Times New Roman;
-    display:flex;
-    margin-left: 280px;
-    font-size:40px;
+header a {
+    color: #000000;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 24px;
+    border-radius: 10px;
+    position: relative;
+    right: 0;
+    font-weight: bold;
 }
 
-.toppanel{
-    color: white;
-    font: Times New Roman;
-    display:inline-block;
-    margin-left: 50px;
-    font-size: 20px;
+.logo {
+    width: 15%;
 }
 
-body{
-    background: linear-gradient( #bbbbbb4d, transparent 1px), linear-gradient( 90deg, #bbbbbb4d, transparent 1px);
-    background-size: 40px 40px;
-    background-position: center center;
+header a:hover {
+    background-color: #e79f4a;
+    color: #000000;
+}
+
+.active {
+    background-color: #e4c3a4;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+.img {
+    width: 450px;
+    height: 450px;
+    position: absolute;
+    left: 50%;
+    margin-top: -80px;
+}
+
+.a1 {
+    display: flex;
+    margin-right: 200px;
+}
+
+.section1 {
+    font-family: sans-serif;
+    background-color: #e4c3a4;
+    padding: 135px 50px 132px 50px;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 25px;
+    line-height: 35px;
+}
+
+.title {
+    color: #d43d27;
+    margin: -100px -250px 0px 10px;
+}
+
+.text {
+    padding: 0px 0px 0px 10px;
+    text-align: left;
+    padding-right: 20px;
+}
+
+.but {
+    color: #000000;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 30px;
+    border-radius: 10px;
+    position: absolute;
+    right: 0;
+    margin: 275px 1010px 0px 10px;
+    font-weight: bold;
+}
+
+.but:hover {
+    background-color: #e79f4a;
+    color: #000000;
+}
+
+.butt {
+    color: #000000;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 30px;
+    border-radius: 10px;
+    position: absolute;
+    right: 0;
+    margin: 275px 800px 0px 10px;
+    font-weight: bold;
+}
+
+.butt:hover {
+    background-color: #e79f4a;
+    color: #000000;
 }
